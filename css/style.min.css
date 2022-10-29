@@ -4207,6 +4207,7 @@ body {
         -ms-flex-align: center;
             align-items: center;
     width: 100%;
+    bottom: 80px;
   }
   .header.media .header__links .link-phone {
     margin-right: 0;
@@ -4220,31 +4221,31 @@ body {
             align-items: flex-start;
   }
 }
+@media (max-height: 794px) {
+  .header.media .header__top {
+    margin-bottom: 17%;
+  }
+  .header.media .header__title {
+    margin-bottom: 17%;
+  }
+}
 @media (max-height: 767px) {
   .header.media .header__top {
-    margin-bottom: 17%;
+    margin-bottom: 14%;
   }
   .header.media .header__title {
-    margin-bottom: 17%;
+    margin-bottom: 14%;
   }
 }
-@media (max-height: 737px) {
+@media (max-height: 745px) {
   .header.media .header__top {
-    margin-bottom: 14%;
+    margin-bottom: 11%;
   }
   .header.media .header__title {
-    margin-bottom: 14%;
+    margin-bottom: 11%;
   }
 }
-@media (max-height: 710px) {
-  .header.media .header__top {
-    margin-bottom: 14%;
-  }
-  .header.media .header__title {
-    margin-bottom: 12%;
-  }
-}
-@media (max-height: 700px) {
+@media (max-height: 724px) {
   .header.media .header__top {
     margin-bottom: 10%;
   }
@@ -4259,6 +4260,34 @@ body {
   }
   .header.media .header__services {
     gap: 14px;
+  }
+}
+@media (max-height: 710px) {
+  .header.media .header__top {
+    margin-bottom: 8%;
+  }
+  .header.media .header__title {
+    margin-bottom: 8%;
+  }
+  .header.media .header__services-row {
+    gap: 12px;
+  }
+  .header.media .header__services {
+    gap: 12px;
+  }
+}
+@media (max-height: 685px) {
+  .header.media .header__top {
+    margin-bottom: 6%;
+  }
+  .header.media .header__title {
+    margin-bottom: 6%;
+  }
+  .header.media .header__services-row {
+    gap: 10px;
+  }
+  .header.media .header__services {
+    gap: 10px;
   }
 }
 @media (max-width: 630px) {
@@ -5265,6 +5294,14 @@ body {
 
 }
 
+ @media (max-height: 794px){
+
+@supports (-webkit-appearance:none){
+
+}
+
+}
+
  @media (max-height: 767px){
 
 @supports (-webkit-appearance:none){
@@ -5273,7 +5310,15 @@ body {
 
 }
 
- @media (max-height: 737px){
+ @media (max-height: 745px){
+
+@supports (-webkit-appearance:none){
+
+}
+
+}
+
+ @media (max-height: 724px){
 
 @supports (-webkit-appearance:none){
 
@@ -5289,7 +5334,7 @@ body {
 
 }
 
- @media (max-height: 700px){
+ @media (max-height: 685px){
 
 @supports (-webkit-appearance:none){
 
