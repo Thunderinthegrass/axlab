@@ -291,6 +291,10 @@ body {
   overflow: hidden;
 }
 
+.op-0 {
+  opacity: 0;
+}
+
 .modal-overlay-sertificat,
 .modal-overlay-video,
 .modal-overlay-order,
@@ -1986,7 +1990,7 @@ body {
 }
 
 .prices {
-  margin-bottom: 300px;
+  margin-bottom: 100px;
   padding-top: 200px;
 }
 .prices .container {
@@ -2131,7 +2135,7 @@ body {
   position: sticky;
   top: 80px;
   background: #131313;
-  z-index: 25;
+  z-index: 12;
   border: 1px solid #4d4e4f;
 }
 .prices__item.prices__item_first .lite.rate,
@@ -2374,7 +2378,7 @@ body {
 }
 @media (max-width: 768px) {
   .prices.media {
-    margin-bottom: 150px;
+    margin-bottom: 130px;
     padding-top: 100px;
   }
 }
@@ -2851,9 +2855,6 @@ body {
   display: flex;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
 }
 @media (max-width: 360px) {
   .clients__inner_mobile.clients-slider .slick-slide .clients__item img {
@@ -3920,7 +3921,7 @@ body {
         -ms-flex-align: center;
             align-items: center;
     width: 100%;
-    bottom: 52px;
+    bottom: 85px;
   }
   .header.media .header__links .link-phone {
     margin-right: 0;
@@ -3949,6 +3950,9 @@ body {
   }
 }
 
+.footer {
+  padding-top: 200px;
+}
 .footer .container {
   padding-left: 80px;
   padding-right: 80px;
@@ -4294,15 +4298,15 @@ body {
   }
 }
 @media (max-width: 768px) {
+  .footer.media {
+    padding-top: 0;
+  }
   .footer.media .container {
     padding-left: 20px;
     padding-right: 20px;
   }
 }
 @media (max-width: 750px) {
-  .footer.media .footer__title {
-    display: none;
-  }
   .footer.media .footer__links {
     padding-top: 15px;
     -webkit-box-align: start;
@@ -4313,7 +4317,7 @@ body {
     margin-right: 24px;
   }
   .footer.media .footer__form-wrapper {
-    padding-top: 50px;
+    padding-top: 70px;
     margin-bottom: 90px;
   }
   .footer.media .footer__bottom {
@@ -4324,6 +4328,10 @@ body {
   .footer.media .container {
     padding-left: 0;
     padding-right: 0;
+  }
+  .footer.media .footer__title {
+    padding-left: 20px;
+    padding-right: 20px;
   }
   .footer.media .footer__inner {
     padding-left: 20px;
