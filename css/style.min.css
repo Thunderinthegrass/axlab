@@ -2495,6 +2495,8 @@ body {
   height: 42px;
   border-bottom: 1px solid #c2c6cb;
   margin-bottom: 45px;
+  outline: none;
+  padding-left: 10px;
 }
 .order-form__btn {
   padding: 14px 46px;
