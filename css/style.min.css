@@ -1093,6 +1093,8 @@ body {
   height: 136px;
   border-radius: 10px;
   overflow: hidden;
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
 }
 .team .team__member-img img {
   -o-object-fit: cover;
