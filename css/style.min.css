@@ -2374,6 +2374,13 @@ body {
   line-height: 24px;
 }
 
+.order-agreement {
+  color: #000;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 141%;
+}
+
 @media (max-width: 1350px) {
   .prices.media .container {
     padding-left: 20px;
@@ -4123,6 +4130,9 @@ body {
   outline: none;
   color: #a4a6a9;
   background-color: #1b1b1b !important;
+  -webkit-box-shadow: inset 0 0 0 50px #1b1b1b;
+          box-shadow: inset 0 0 0 50px #1b1b1b;
+  -webkit-text-fill-color: #a4a6a9;
 }
 .footer .form__input:first-child {
   padding-top: 47px;
